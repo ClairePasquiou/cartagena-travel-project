@@ -50,13 +50,67 @@ header a{
   padding: 16px 32px;
 
 }
+
+footer{
+  color: white;
+  background-image:
+  linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), 
+  url('../images/footer.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+footer h3{
+  font-weight: 700;
+  font-size: 20px;
+  line-height:30px;
+}
+
+footer p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+footer ul{
+  padding: 0;
+}
+footer li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a{
+  color: white;
+  opacity: 0.7;
+}
+
+
+section{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
+.grid{
+  display:grid ;
+  grid-template-columns: 1fr 2fr 2fr;
+}
 
-@media (max-width:900px){
+
+@media (max-width:960px){
   header{
     padding: 60px 0;
   }
