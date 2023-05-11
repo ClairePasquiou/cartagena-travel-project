@@ -95,7 +95,7 @@ footer a{
 section{
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+
 }
 
 
@@ -107,6 +107,7 @@ section{
 .grid{
   display:grid ;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 32px;
 }
 
 
